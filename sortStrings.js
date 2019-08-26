@@ -31,7 +31,7 @@ return sortStrings(...left).concat(pivot,sortStrings(...right))
 
 console.log(sortStrings("AXXX","UVVVV","PGGGG","BOOUU"));
 
-// using inbuit sort method
+// using builtin sort method
 
 function sortStrings(...args){
     return args.sort();
